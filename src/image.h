@@ -10,6 +10,7 @@ typedef struct{
 
 // Basic operations
 float get_pixel(image im, int x, int y, int c);
+float apply_box(image im, image filter, int i, int j, int channel);
 void set_pixel(image im, int x, int y, int c, float v);
 image copy_image(image im);
 image rgb_to_grayscale(image im);
