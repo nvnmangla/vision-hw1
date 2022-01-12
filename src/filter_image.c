@@ -71,7 +71,6 @@ image convolve_image(image im, image filter, int preserve)
             }
         }
     }
-    feature_normalize(blur);
 
     return blur;
 }
