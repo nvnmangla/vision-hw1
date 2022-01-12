@@ -28,7 +28,7 @@ e = make_emboss_filter()
 blur = convolve_image(im, e, 1)
 save_image(blur, "emboss")
 
-im = load_image("dog-box.jpg")
+im = load_image("data/dog.jpg")
 f = make_gaussian_filter(2)
 blur = convolve_image(im, f, 1)
 save_image(blur, "dog-gauss")
